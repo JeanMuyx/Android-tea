@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:text="  茶道活动是要遵照一定的礼法进行，礼既礼貌、礼节、礼仪，法即规范、法则。“夫珍鲜馥烈者，其碗数三，次之者，碗数五。若坐客数至五，行三碗。至七，行五碗。若六人以下，不约碗数，但阙一人，而已其隽永补所阙人。”（陆羽《茶经》“五之煮”）此为唐代煎茶道中的行茶规矩。
+\n  “童子捧献于前，主起举瓯奉客曰：为君以泻清臆。客起接，举瓯曰：非此不足以破孤闷。乃复坐。饮毕，童子接瓯而退。话久情长，礼陈再三。”（朱权《茶谱》序）此为宋明点茶道主、客间的端、接、饮、叙礼仪，颇为谨严。礼是约定俗成的行为规范，是表示友好和尊敬的仪容、态度、语言、动作。茶道之礼有主人与客人、客人与客人之间的礼仪、礼节、礼貌。
+\n   茶道之法是整个茶事过程中的一系列规范与法度，涉及人与人、人与物、物与物之间一些规定，如位置、顺序、动作、语言、姿态、仪表、仪容等。
+\n  茶道的礼法随着时代的变迁而有所损益，与时偕行。在不同的茶道流派中，礼法有不同，但有些基本的礼法内容却是相对固定不变的。" />
+</LinearLayout>

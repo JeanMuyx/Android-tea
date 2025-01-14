@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6E8467"
+    tools:context=".Activity.LoginActivity">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F6EEDC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="442dp"
+        android:layout_height="628dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="372dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/bamboo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="116dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            app:srcCompat="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:hint="用户名"
+            android:translationX="60dp"
+            android:translationY="20dp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:translationX="60dp"
+            android:translationY="40dp" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green"
+            android:text="登录"
+            android:textColor="@color/gray"
+            android:textSize="20dp"
+            android:translationX="60dp"
+            android:translationY="80dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

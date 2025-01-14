@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/kaiti"
+        android:text="主要茶道分类"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/jiancha" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="   把茶末投入壶中和水一块煎煮。最早记述于唐代，有“吃茶”之说。流行于宋代。
+法门寺出土的金质茶具，展现了唐代人“吃茶”的情形。茶叶经烘干后碾成粉末，和水一起煮，在煮茶时有时会加入盐等调料，喝茶时与茶叶一起喝下，所以又叫“吃茶”。
+唐代的煎茶，是茶的最早艺术品尝形式。" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/paocha" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="	  泡茶道茶艺包括备器、选水、取火、候汤、习茶五大环节。泡茶道蕴酿于元朝至明朝前期，正式形成了十六世纪末叶的明朝后期，鼎盛于明朝后期至清朝前中期，绵延至今。中国台湾地区的泡茶道来源于中国广东潮州的工夫茶。" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/doucha" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="	  古代文人雅士各携带茶与水，通过比茶面汤花和品尝鉴赏茶汤以定优劣的一种品茶艺术。斗茶又称为茗战，兴于唐代末，盛于宋代。最先流行于福建建州一带。斗茶是古代品茶艺术的最高表现形式。其最终目的是品尝，特别是要吸掉茶面上的汤花，最后斗茶者还要品茶汤，做到色、香、味三者俱佳，才算斗茶的最后胜利。" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/gongfucha" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="	  功夫茶盛行于广东潮汕地区，源于宋代。至今潮汕地区家家户户仍保留着喝功夫茶的风俗。功夫茶操作起来需要一定的工夫，也就是沏泡茶的学问，其中洒茶还有四字诀：低、快、匀、尽。“低”，即是洒茶要低，高则香味散失，泡沫四起，对客人极不尊敬。“快”也是为了使香味不散失，且可保持茶的热度。“匀”是洒茶时须像车轮转动一样，茶初出色淡，后出色浓，要杯杯轮流洒匀。“尽”就是不要让余水留在盖碗中。" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

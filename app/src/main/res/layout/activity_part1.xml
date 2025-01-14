@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow">
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="412dp"
+        android:layout_height="231.5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/playbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放"
+            android:fontFamily="@font/kaiti"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/black"
+            android:textSize="20sp"   />
+        <Button
+            android:id="@+id/stopbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止"
+            android:fontFamily="@font/kaiti"
+            android:layout_marginLeft="50sp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/black"
+            android:textSize="20sp"   />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="  茶道遵循一定的法则。唐代为克服九难，即造、别、器、火、水、炙、末、煮、饮。宋代为三点与三不点茶，“三点”为新茶、甘泉、洁器为一，天气好为一，风流儒雅、气味相投的佳客为一；反之，是为“三不点”。明代为十三宜与七禁忌。“十三宜”为一无事、二佳客、三独坐、四咏诗、五挥翰、六徜徉、七睡起、八宿醒、九清供、十精舍、十一会心、十二鉴赏、十三文僮；“七禁忌”为一不如法、二恶具、三主客不韵、四冠裳苛礼、五荤肴杂味、六忙冗、七壁间案头多恶趣。\n  现代茶道以乌龙茶为例，主要程序为：净手、赏具、洗壶、“乌龙入宫”，冲泡、“春风拂面”、封壶、分杯、“玉液入壶”、分壶、奉茶、闻香、品茗。"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>

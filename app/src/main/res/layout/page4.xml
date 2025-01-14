@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:text="  修行是茶道的根本，是茶道的宗旨，茶人通过茶事活动怡情悦性、陶冶情操、修心悟道。中华茶道的修行为“性命双修”，修性即修心，修命即修身，性命双修亦即身心双修。修命、修身，也谓养生，在于祛病健体、延年益寿；修性、修心在于志道立德、怡情悦性、明心见性。性命双修最终落实于尽性至命。
+\n  中华茶道的理想就是养生、怡情、修性、证道。证道是修道的结果，是茶道的理想，是茶人的终极追求，是人生的最高境界。茶道的宗旨、目的在于修行，环境亦好，礼法亦好，茶艺亦好，都是为了一个目的——修行而设，服务于修行。修行是为了每个参加者自身素质和境界的提高，塑造完美的人格。
+\n  茶道是以修行得道为宗旨的饮茶艺术，包含茶礼、礼法、环境、修行四大要素。茶艺是茶道的基础，是茶道的必要条件，茶艺可以独立于茶道而存在。茶道以茶艺为载体，依存于茶艺。茶艺重点在“艺”，重在习茶艺术，以获得审美享受；茶道的重点在“道”，旨在通过茶艺修心养性、参悟大道。茶艺的内涵小于茶道，茶道的内涵包容茶艺。茶艺的外延大于茶道，其外延介于茶道和茶文化之间。" />
+</LinearLayout>

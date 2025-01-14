@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="   茶道是在一定的环境下所进行的茶事活动，茶道对环境的选择、营造尤其讲究，旨在通过环境来陶冶、净化人的心灵，因而需要一个与茶道活动要求相一致的环境。茶道活动的环境不是任意、随便的，而是经过精心的选择或营造。茶道环境有三类，一是自然环境，如松间竹下，泉边溪侧，林中石上。二是人造环境，如僧寮道院、亭台楼阁、画舫水榭、书房客厅。三是特设环境，即专门用来从事茶道活动的茶室。茶室包括室外环境和室内环境，茶室的室外环境是指茶室的庭院，茶室的庭院往往栽有青松翠竹等常绿植物及花木。室内环境则往往有挂画、插花、盆景、古玩、文房清供等。尤其是挂画、插花，必不可少。总之，茶道的环境要清雅幽静，使人进入到此环境中，忘却俗世，洗尽尘心，熏陶德化。"/>
+</LinearLayout>
